@@ -1,0 +1,9 @@
+django>=5.0
+djangorestframework
+psycopg2-binary
+python-dotenv
+gunicorn
+djoser
+drf-yasg
+django-cors-headers
+Pillow

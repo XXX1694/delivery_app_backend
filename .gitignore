@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+env/
+venv/
+
+# Django
+*.log
+staticfiles/
+media/
+
+# Env
+.env
+
+# Docker
+*.pid
+*.tar
+*.bak
+*.swp
+
+# VS Code / JetBrains
+.idea/
+.vscode/
+
+# Migrations (если хочешь игнорировать старые)
+**/migrations/*.pyc
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Node/npm (если есть)
+node_modules/
